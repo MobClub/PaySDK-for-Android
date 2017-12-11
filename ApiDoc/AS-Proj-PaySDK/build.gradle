@@ -1,0 +1,28 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        buildDepFromMaven = true
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        if (buildDepFromMaven) {
+            classpath 'com.mob.sdk:MobSDK:+'
+        }
+    }
+
+    repositories {
+        jcenter()
+        if (buildDepFromMaven) {
+            maven {
+                url "http://mvn.mob.com/android"
+            }
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}

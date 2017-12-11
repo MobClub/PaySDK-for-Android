@@ -1,0 +1,99 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp">
+
+    <RelativeLayout
+        android:id="@+id/vg_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_order_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="订单号：23344566"
+            android:textColor="#6E6F78"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/tv_order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_order_no"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="0dp"
+            android:text="支付情况：支付成功"
+            android:textColor="#6E6F78"
+            android:textSize="12dp"/>
+
+        <View
+            android:id="@+id/v_temp"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tv_order_no"
+            android:layout_marginTop="10dp"
+            android:background="#EFEFF4"/>
+
+        <TextView
+            android:id="@+id/tv_order_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_order_no"
+            android:layout_below="@id/v_temp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:text="为账户充值 ￥3元"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/tv_order_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_order_no"
+            android:layout_below="@id/tv_order_body"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:text="时间：2016.11.22 22:23"
+            android:textColor="#A6A6B2"
+            android:textSize="12dp"/>
+
+
+        <TextView
+            android:id="@+id/iv_news_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/orderlist_refund_selector"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:text="退款"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</RelativeLayout>

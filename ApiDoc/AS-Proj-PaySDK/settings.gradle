@@ -1,0 +1,11 @@
+include ':PaySDK'
+project(':PaySDK').projectDir = new File('../PaySDK')
+
+//include ':MobTools'
+//project(':MobTools').projectDir = new File('../../../ShareSDKTools')
+//
+//include ':MobCommons'
+//project(':MobCommons').projectDir = new File('../../../MobCommons')
+
+include ':PaySDKDemo'
+project(':PaySDKDemo').projectDir = new File('../PaySDKDemo')

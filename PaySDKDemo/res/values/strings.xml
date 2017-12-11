@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">MobPaySDKDemo</string>
+
+    <string name="main_pay_total">合计: &lt;font color=\'#FF3003\'&gt;%.0f&lt;/font&gt;元</string>
+    <string name="main_pay_total1">合计: &lt;font color=\'#FF3003\'&gt;%.2f&lt;/font&gt;元</string>
+
+    <string name="orderlist_no">订单号: %s</string>
+    <string name="orderlist_amout">为账户充值 &lt;font color=\'#FF3003\'&gt;￥%s&lt;/font&gt;元</string>
+
+    <string name="main_topay_fail">支付金额不正确</string>
+    <string name="main_order_subject">支付标题</string>
+    <string name="main_order_body">支付主体</string>
+
+    <string name="main_pay_success">支付成功</string>
+    <string name="main_pay_fail">支付失败</string>
+    <string name="main_pay_cancel">支付取消</string>
+    <string name="main_pay_invalid_channel">支付渠道未开通</string>
+
+    <string name="dialog_pay_fail">支付失败，请稍后再试</string>
+</resources>

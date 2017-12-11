@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="window_bg">#EFEFF3</drawable>
+    <drawable name="common_divider">#797979</drawable>
+    <drawable name="loading_dialog">@null</drawable>
+</resources>
